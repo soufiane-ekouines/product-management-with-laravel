@@ -7,6 +7,34 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Add your Email
+<p>
+MAIL_MAILER=smtp
+MAIL_HOST=mailhog
+MAIL_PORT=1025
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS=null
+MAIL_FROM_NAME="${APP_NAME}"
+</p>
+## Add GOOGLE FACEBOOK
+# config/services.php 
+<p>
+'google' => [
+        'client_id' => '_________________________________',
+        'client_secret' => '__________________________',
+        'redirect' => 'http://localhost:8000/callback'
+    ],
+    'facebook' => [
+        'client_id' => '________________________',
+        'client_secret' => '________________________________',
+        'redirect' => 'http://localhost:8000/facebook/callback'
+    ],
+</p>
+## Create Database name gestionArticl
+php artisan migrate
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
