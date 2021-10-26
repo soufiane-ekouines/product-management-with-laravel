@@ -1,31 +1,31 @@
 
 ## Add your Email
 
-MAIL_MAILER=smtp
-MAIL_HOST=mailhog
-MAIL_PORT=1025
-MAIL_USERNAME=null
-MAIL_PASSWORD=null
-MAIL_ENCRYPTION=null
-MAIL_FROM_ADDRESS=null
-MAIL_FROM_NAME="${APP_NAME}"
-<br/>
+MAIL_MAILER=smtp<br/>
+MAIL_HOST=mailhog<br/>
+MAIL_PORT=1025<br/>
+MAIL_USERNAME=null<br/>
+MAIL_PASSWORD=null<br/>
+MAIL_ENCRYPTION=null<br/>
+MAIL_FROM_ADDRESS=null<br/>
+MAIL_FROM_NAME="${APP_NAME}"<br/>
+
 ## Add GOOGLE FACEBOOK<br/>
-# config/services.php
+	config/services.php<br/>
 
 'google' => [<br/>
-        'client_id' => '_________________________________',
-        'client_secret' => '__________________________',
-        'redirect' => 'http://localhost:8000/callback'
-    ],
+        'client_id' => '_________________________________',<br/>
+        'client_secret' => '__________________________',<br/>
+        'redirect' => 'http://localhost:8000/callback'<br/>
+    ],<br/>
     'facebook' => [<br/>
-        'client_id' => '________________________',
-        'client_secret' => '________________________________',
-        'redirect' => 'http://localhost:8000/facebook/callback'
-    ],
+        'client_id' => '________________________',<br/>
+        'client_secret' => '________________________________',<br/>
+        'redirect' => 'http://localhost:8000/facebook/callback'<br/>
+    ],<br/>
 
 ## Create Database name gestionArticl
-php artisan migrate
+php artisan migrate<br/>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
