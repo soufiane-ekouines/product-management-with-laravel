@@ -11,7 +11,7 @@ MAIL_FROM_ADDRESS=null<br/>
 MAIL_FROM_NAME="${APP_NAME}"<br/>
 
 ## Add GOOGLE FACEBOOK<br/>
-	config/services.php<br/>
+	config/services.php
 
 'google' => [<br/>
         'client_id' => '_________________________________',<br/>
